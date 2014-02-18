@@ -1,0 +1,16 @@
+#ifndef QOLOR_VERSION_H_FDE58E05_EFB9_447A_8863_C1080418B0FD
+#define QOLOR_VERSION_H_FDE58E05_EFB9_447A_8863_C1080418B0FD
+
+namespace qolor
+{
+	namespace version
+	{
+		static constexpr int major = @qolor_VERSION_MAJOR@;
+		static constexpr int minor = @qolor_VERSION_MINOR@;
+		static constexpr int patch = @qolor_VERSION_PATCH@;
+		static constexpr char version[] = "@qolor_VERSION_FULL@";
+	}
+}
+	
+
+#endif
